@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Goat Farm</string>
+    <string name="phone">555-555-1234</string>
+    <string name="name">Goat Farm</string>
+    <string name="location">Anytown, NY</string>
+    <string name="dates">May - August</string>
+    <string name="details">Need some cashmere? Maybe a pet goat? Have you spent years wondering just what goat tastes like? Goat Farm\'s incredible selection of cashmere goats is your one-stop shop for all of the above. Open May to August or by appointment.</string>
+</resources>

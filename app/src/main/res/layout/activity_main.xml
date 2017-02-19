@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spconrad.udacityp1project.MainActivity">
+
+    <ImageView
+        android:id="@+id/heroimage"
+        android:scaleType="fitStart"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/goathero"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:paddingLeft="12dp"
+        android:paddingBottom="4dp"
+        android:text="@string/name"
+        android:textSize="20dp"
+        android:layout_below="@id/heroimage" />
+
+    <ImageView
+        android:id="@+id/locationicon"
+        android:layout_width="32dp"
+        android:layout_height="64dp"
+        android:scaleType="centerInside"
+        android:layout_below="@id/name"
+        android:layout_above="@+id/dates"
+        android:paddingLeft="8dp"
+        android:src="@drawable/locationicon" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_toRightOf="@id/locationicon"
+        android:textSize="16dp"
+        android:paddingTop="4dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="4dp"
+        android:text="@string/location" />
+
+    <TextView
+        android:id="@+id/dates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location"
+        android:paddingTop="4dp"
+        android:paddingLeft="12dp"
+        android:paddingBottom="4dp"
+        android:textSize="16dp"
+        android:text="@string/dates" />
+
+    <TextView
+        android:id="@+id/contact_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dates"
+        android:paddingTop="4dp"
+        android:paddingLeft="12dp"
+        android:paddingBottom="4dp"
+        android:textSize="16dp"
+        android:text="@string/phone" />
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_phone"
+        android:paddingTop="4dp"
+        android:paddingLeft="12dp"
+        android:paddingBottom="4dp"
+        android:text="@string/details" />
+</RelativeLayout>
